@@ -14,7 +14,7 @@ The application leverages OpenWeather API to pull weather and forecast informato
 N/A
 
 ## Usage
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/Screenshot.png)
 
 ## Credits
 N/A
