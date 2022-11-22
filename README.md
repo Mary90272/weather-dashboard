@@ -1,7 +1,7 @@
 # weather-dashboard
 Enter in your city of choice and select search to view the current weather and forecast for the next five days.Previous searches are saved in localStorage and search histories are available as buttons in order for easy access and re-searching of weather and forecasts.
 
-**When viewing current weather conditions for the city, the following is shown:
+** When viewing current weather conditions for the city, the following is shown: **
 
 ## City name
 ## Date
