@@ -14,9 +14,9 @@ The application leverages OpenWeather API to pull weather and forecast informato
 N/A
 
 ## Usage
-img later 
+![alt text](assets/images/screenshoot.png)
 
 ## Credits
 N/A
 ## Websites 
-link later 
+https://mary90272.github.io/weather-dashboard/
