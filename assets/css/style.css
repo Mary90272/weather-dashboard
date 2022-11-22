@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: auto;
+  padding: 0 32px;
+}
+
+.d-none {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  border: 1px solid #ddd;
+  outline: none;
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.dashboard-header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B1E6E;
+  color: #fff;
+}
+
+.main-container {
+  display: flex;
+}
+
+.main-container-left {
+  flex-basis: 25%;
+  padding: 16px;
+}
+
+.search-city-form {
+  margin-bottom: 16px;
+}
+
+.search-city-heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.city-name-submit-btn {
+  margin: 8px 0 16px;
+  background-color: #6891E3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.res-msg-wrapper {
+  margin-top: 16px;
+  text-align: center;
+  color: red;
+}
+
+.searched-cities-item {
+  background-color: #AFAFAF;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main-container-right {
+  flex-basis: 75%;
+  padding: 16px;
+}
+
+.today-weather-wrapper {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.today-weather-header {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.today-weather-header img {
+  margin-left: 16px;
+}
+
+.five-day-forcast-heading {
+  font-size: 24px;
+  margin: 16px 0;
+}
+
+.five-day-forecast-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.five-day-forecast-item {
+  flex-basis: 19%;
+  padding: 8px;
+  background-color: #323C50;
+  color: #fff;
+}
+
+.five-day-forecast-item-header {
+  font-weight: 600;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.five-day-forecast-item-header img {
+  margin-left: 16px;
+}
+
+.five-day-forecast-item-body {
+  font-size: 12px;
+}
