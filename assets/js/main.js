@@ -1,4 +1,9 @@
-const API_KEY = 'ecb57f4dfa148ed0ee15722655ab71a0';
+
+require('dotenv').config();
+
+const API_KEY = process.env.SOME_KEY;
+
+
 
 const searchCityForm = document.querySelector('.search-city-form');
 const cityNameInp = document.querySelector('.city-name-inp');
